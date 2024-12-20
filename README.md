@@ -1,7 +1,7 @@
 # 2024 Food-Order-System
 
 ## 프로젝트 설명
-이 프로젝트는 음식 주문 시스템입니다. 위 시스템 구현하기 위한 데이터베이스 SQL과 JDBC 코드입니다.
+이 프로젝트는 음식 주문 시스템입니다. 위 시스템 구현을 위한 데이터베이스 SQL과 JDBC 코드입니다.
 
 ## 프로젝트 구성원
 
@@ -28,29 +28,36 @@ JDBC API java.sql.*을 import해 데이터베이스와 연동하여 사용하였
 ## JDBC 구현
 ### 파일 구조
 프로젝트는 4개의 주요 패키지와 각 패키지당 3개의 Java 클래스로 구성됩니다.
-	1.	customer
+- customer
   - Customer: 고객 데이터를 표현하는 모델 클래스
   - CustomerMain: 고객 데이터에 대한 CRUD 연산 테스트
   - CustomerService: 고객 데이터를 처리하는 비즈니스 로직
-	2.	restaurant
+    
+- restaurant
   - Restaurant: 음식점 데이터를 표현하는 모델 클래스
-	- RestaurantMain: 음식점 데이터에 대한 CRUD 연산 테스트
+  - RestaurantMain: 음식점 데이터에 대한 CRUD 연산 테스트
   - RestaurantService: 음식점 데이터를 처리하는 비즈니스 로직
-	3.	menu
-	- Menu: 메뉴 데이터를 표현하는 모델 클래스
+    
+- menu
+  - Menu: 메뉴 데이터를 표현하는 모델 클래스
   - MenuMain: 메뉴 데이터에 대한 CRUD 연산 테스트
-	- MenuService: 메뉴 데이터를 처리하는 비즈니스 로직
-	4.	morder
+  - MenuService: 메뉴 데이터를 처리하는 비즈니스 로직
+    
+- morder
   - Morder: 주문 데이터를 표현하는 모델 클래스
-	- MorderMain: 주문 데이터에 대한 CRUD 연산 테스트
+  - MorderMain: 주문 데이터에 대한 CRUD 연산 테스트
   - MorderService: 주문 데이터를 처리하는 비즈니스 로직
 <img width="168" alt="image" src="https://github.com/user-attachments/assets/727f298d-d5e9-4af1-a6e1-78a2b10f8ada" />
 
 ### 기능 구현
 - 전체 정보 검색
-- 아이디로 검색
 - 데이터 추가
 - 데이터 수정
+	           
+  ![image](https://github.com/user-attachments/assets/afac15d4-5223-4e10-921e-06f848fcfe14)
+- 아이디로 검색
+  	           
+  ![image](https://github.com/user-attachments/assets/3cf8996b-0cf2-45ba-a551-92388844f651)
 - 데이터 삭제
-
-  
+  	         
+  ![image](https://github.com/user-attachments/assets/69d2b926-0fff-4281-89fa-b23fdd6540cb)
